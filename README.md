@@ -1,1 +1,3 @@
 # Password-checker
+This Password Strength Checker is built using Python and uses the re module (regular expressions) to check for letters, numbers, and special characters. The main function, check_password_strength(password), examines the password against a set of rules, calculates a score, and provides feedback to the user. The app has a simple text-based interface, where users enter passwords using input() and receive results via print(). The program follows a logical flow: it sequentially checks the password rules, calculates the strength score, determines the strength rating (Weak, Medium, or Strong), gives suggestions if needed, and then repeats until the user chooses to exit.
+I made this application as one of my first-year projects in Cyber Security.
